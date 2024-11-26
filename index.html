@@ -1,0 +1,51 @@
+
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTE: Please add the following <FORM> element to your page.             -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8&orgId=00DNS000002gpzT" method="POST">
+    
+    <input type=hidden name="orgid" value="00DNS000002gpzT">
+    <input type=hidden name="retURL" value="https://bhumi978.github.io/sf_web_to_case/">
+    
+    <!--  ----------------------------------------------------------------------  -->
+    <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+    <!--  these lines if you wish to test in debug mode.                          -->
+    <!--  <input type="hidden" name="debug" value=1>                              -->
+    <!--  <input type="hidden" name="debugEmail"                                  -->
+    <!--  value="bhumikaarora2024@gmail.com">                                     -->
+    <!--  ----------------------------------------------------------------------  -->
+    
+    <label for="name">Contact Name</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+    
+    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+    
+    <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+    
+    <label for="subject">Subject</label><input  id="subject" maxlength="80" name="subject" size="20" type="text" /><br>
+    
+    <label for="description">Description</label><textarea name="description"></textarea><br>
+    
+    Classification:<select  id="00NNS00000Ibqi1" name="00NNS00000Ibqi1" title="Classification"><option value="">--None--</option><option value="None">None</option>
+    <option value="Technical issue">Technical issue</option>
+    <option value="Billing issue">Billing issue</option>
+    </select><br>
+    
+    Sub_classification:<select  id="00NNS00000Ibqjd" name="00NNS00000Ibqjd" title="Sub_classification"><option value="">--None--</option><option value="none">none</option>
+    <option value="Hardware">Hardware</option>
+    <option value="Software">Software</option>
+    </select><br>
+    
+    <input type="submit" name="submit">
+    
+    </form>
+    
